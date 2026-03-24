@@ -1,0 +1,11 @@
+R_DEF: Internal format may change without notice
+local
+id btnBack
+id btnBreak
+id btnForward
+id btnJump
+id btnLeft
+id btnRight
+id gameWebView
+id lookPad
+layout activity_main

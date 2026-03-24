@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Specification-Title: waystones
+Specification-Vendor: BlayTheNinth
+Specification-Version: 1
+Implementation-Title: forge
+Implementation-Version: 14.1.18
+Implementation-Vendor: BlayTheNinth
+Implementation-Timestamp: 2026-01-13T11:51:17+0000
+MixinConfigs: waystones.mixins.json
+

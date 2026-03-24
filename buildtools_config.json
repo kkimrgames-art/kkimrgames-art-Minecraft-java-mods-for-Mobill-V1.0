@@ -1,0 +1,17 @@
+{
+  "repositoryFolder": ".",
+  "modCoderPack": "mcp918/mcp918.zip",
+  "minecraftJar": "mcp918/1.8.8.jar",
+  "assetsIndex": "mcp918/1.8.json",
+  "outputDirectory": "web-build",
+  "temporaryDirectory": "##TEAVM.TMP##",
+  "ffmpeg": "mcp918/ffmpeg.exe",
+  "mavenURL": "https://repo1.maven.org/maven2/",
+  "mavenLocal": "local-tools/teavm-m2",
+  "productionIndex": "buildtools/production-index.html",
+  "productionFavicon": "buildtools/production-favicon.png",
+  "generateOfflineDownload": false,
+  "keepTemporaryFiles": true,
+  "writeSourceMap": false,
+  "minifying": true
+}

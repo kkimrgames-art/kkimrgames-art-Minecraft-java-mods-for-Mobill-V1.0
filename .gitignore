@@ -1,0 +1,34 @@
+# Temporary build files
+##TEAVM.TMP##/
+temp_extract/
+temp_mcp_extract/
+temp_mod_extraction/
+web-build/
+__pycache__/
+
+# IDE and OS files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Build tools and large binaries
+buildtools/
+local-tools/
+mcp918/
+
+# Binary files (unless specifically needed)
+*.jar
+*.zip
+*.rar
+*.7z
+*.exe
+*.bin
+
+# Reports and Logs
+texture_migration_report.json
+comprehensive_migration_report.json
+sound_migration_report.json
+spawn_tuning_report.json
+*.log

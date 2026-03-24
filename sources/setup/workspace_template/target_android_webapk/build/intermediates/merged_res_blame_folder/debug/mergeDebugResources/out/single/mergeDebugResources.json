@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\Sidivall AI\\.gradle\\daemon\\8.14\\net.eaglercraft.webapk.target_android_webapk-debug-24:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Sidivall AI\\.gradle\\daemon\\8.14\\net.eaglercraft.webapk.target_android_webapk-main-26:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "net.eaglercraft.webapk.target_android_webapk-debug-24:/layout_activity_main.xml.flat",
+        "source": "net.eaglercraft.webapk.target_android_webapk-main-26:/layout/activity_main.xml"
+    }
+]

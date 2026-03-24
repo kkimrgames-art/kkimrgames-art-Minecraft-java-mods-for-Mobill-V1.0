@@ -1,0 +1,34 @@
+{
+  "mappings": {
+    "net/blay09/mods/waystones/mixin/StructureTemplatePoolAccessor": {
+      "rawTemplates": "f_210559_:Ljava/util/List;",
+      "templates": "f_210560_:Lit/unimi/dsi/fastutil/objects/ObjectArrayList;"
+    },
+    "net/blay09/mods/waystones/mixin/SinglePoolElementMixin": {
+      "template": "f_210411_:Lcom/mojang/datafixers/util/Either;",
+      "place(Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager;Lnet/minecraft/world/level/WorldGenLevel;Lnet/minecraft/world/level/StructureManager;Lnet/minecraft/world/level/chunk/ChunkGenerator;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Rotation;Lnet/minecraft/world/level/levelgen/structure/BoundingBox;Lnet/minecraft/util/RandomSource;Z)Z": "Lnet/minecraft/world/level/levelgen/structure/pools/SinglePoolElement;m_213695_(Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager;Lnet/minecraft/world/level/WorldGenLevel;Lnet/minecraft/world/level/StructureManager;Lnet/minecraft/world/level/chunk/ChunkGenerator;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Rotation;Lnet/minecraft/world/level/levelgen/structure/BoundingBox;Lnet/minecraft/util/RandomSource;Z)Z"
+    },
+    "net/blay09/mods/waystones/mixin/JigsawPlacementPlacerMixin": {
+      "net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement$Placer": "net/minecraft/world/level/levelgen/structure/pools/JigsawPlacement$Placer",
+      "tryPlacingChildren(Lnet/minecraft/world/level/levelgen/structure/PoolElementStructurePiece;Lorg/apache/commons/lang3/mutable/MutableObject;IZLnet/minecraft/world/level/LevelHeightAccessor;Lnet/minecraft/world/level/levelgen/RandomState;)V": "Lnet/minecraft/world/level/levelgen/structure/pools/JigsawPlacement$Placer;m_227264_(Lnet/minecraft/world/level/levelgen/structure/PoolElementStructurePiece;Lorg/apache/commons/lang3/mutable/MutableObject;IZLnet/minecraft/world/level/LevelHeightAccessor;Lnet/minecraft/world/level/levelgen/RandomState;)V",
+      "Lnet/minecraft/core/Registry;getHolder(Lnet/minecraft/resources/ResourceKey;)Ljava/util/Optional;": "Lnet/minecraft/core/Registry;m_203636_(Lnet/minecraft/resources/ResourceKey;)Ljava/util/Optional;"
+    }
+  },
+  "data": {
+    "searge": {
+      "net/blay09/mods/waystones/mixin/StructureTemplatePoolAccessor": {
+        "rawTemplates": "f_210559_:Ljava/util/List;",
+        "templates": "f_210560_:Lit/unimi/dsi/fastutil/objects/ObjectArrayList;"
+      },
+      "net/blay09/mods/waystones/mixin/SinglePoolElementMixin": {
+        "template": "f_210411_:Lcom/mojang/datafixers/util/Either;",
+        "place(Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager;Lnet/minecraft/world/level/WorldGenLevel;Lnet/minecraft/world/level/StructureManager;Lnet/minecraft/world/level/chunk/ChunkGenerator;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Rotation;Lnet/minecraft/world/level/levelgen/structure/BoundingBox;Lnet/minecraft/util/RandomSource;Z)Z": "Lnet/minecraft/world/level/levelgen/structure/pools/SinglePoolElement;m_213695_(Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager;Lnet/minecraft/world/level/WorldGenLevel;Lnet/minecraft/world/level/StructureManager;Lnet/minecraft/world/level/chunk/ChunkGenerator;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Rotation;Lnet/minecraft/world/level/levelgen/structure/BoundingBox;Lnet/minecraft/util/RandomSource;Z)Z"
+      },
+      "net/blay09/mods/waystones/mixin/JigsawPlacementPlacerMixin": {
+        "net.minecraft.world.level.levelgen.structure.pools.JigsawPlacement$Placer": "net/minecraft/world/level/levelgen/structure/pools/JigsawPlacement$Placer",
+        "tryPlacingChildren(Lnet/minecraft/world/level/levelgen/structure/PoolElementStructurePiece;Lorg/apache/commons/lang3/mutable/MutableObject;IZLnet/minecraft/world/level/LevelHeightAccessor;Lnet/minecraft/world/level/levelgen/RandomState;)V": "Lnet/minecraft/world/level/levelgen/structure/pools/JigsawPlacement$Placer;m_227264_(Lnet/minecraft/world/level/levelgen/structure/PoolElementStructurePiece;Lorg/apache/commons/lang3/mutable/MutableObject;IZLnet/minecraft/world/level/LevelHeightAccessor;Lnet/minecraft/world/level/levelgen/RandomState;)V",
+        "Lnet/minecraft/core/Registry;getHolder(Lnet/minecraft/resources/ResourceKey;)Ljava/util/Optional;": "Lnet/minecraft/core/Registry;m_203636_(Lnet/minecraft/resources/ResourceKey;)Ljava/util/Optional;"
+      }
+    }
+  }
+}

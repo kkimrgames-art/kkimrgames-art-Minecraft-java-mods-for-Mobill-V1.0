@@ -1,0 +1,5 @@
+minecraftJar=1774103967129
+assetsIndex=1774103971202
+patchesMinecraft=1774374104031
+patchesResources=1774113420390
+assetsIndexTransformer=1751830315000
